@@ -1,0 +1,14 @@
+C:\Galaxy\Galaxy\ProductsService\bin\Debug\netcoreapp2.2\nlog.config
+C:\Galaxy\Galaxy\ProductsService\bin\Debug\netcoreapp2.2\ProductsService.deps.json
+C:\Galaxy\Galaxy\ProductsService\bin\Debug\netcoreapp2.2\ProductsService.runtimeconfig.json
+C:\Galaxy\Galaxy\ProductsService\bin\Debug\netcoreapp2.2\ProductsService.runtimeconfig.dev.json
+C:\Galaxy\Galaxy\ProductsService\bin\Debug\netcoreapp2.2\ProductsService.dll
+C:\Galaxy\Galaxy\ProductsService\bin\Debug\netcoreapp2.2\ProductsService.pdb
+C:\Galaxy\Galaxy\ProductsService\obj\Debug\netcoreapp2.2\ProductsService.csproj.CoreCompileInputs.cache
+C:\Galaxy\Galaxy\ProductsService\obj\Debug\netcoreapp2.2\ProductsService.RazorAssemblyInfo.cache
+C:\Galaxy\Galaxy\ProductsService\obj\Debug\netcoreapp2.2\ProductsService.RazorAssemblyInfo.cs
+C:\Galaxy\Galaxy\ProductsService\obj\Debug\netcoreapp2.2\ProductsService.AssemblyInfoInputs.cache
+C:\Galaxy\Galaxy\ProductsService\obj\Debug\netcoreapp2.2\ProductsService.AssemblyInfo.cs
+C:\Galaxy\Galaxy\ProductsService\obj\Debug\netcoreapp2.2\ProductsService.RazorTargetAssemblyInfo.cache
+C:\Galaxy\Galaxy\ProductsService\obj\Debug\netcoreapp2.2\ProductsService.dll
+C:\Galaxy\Galaxy\ProductsService\obj\Debug\netcoreapp2.2\ProductsService.pdb

@@ -1,0 +1,72 @@
+2019-12-22 17:22:00.8922|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Nermin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-12-22 17:22:01.3904|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44342/api/Products  
+2019-12-22 17:22:01.4363|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ProductsService.Controllers.ProductsController.GetProducts (ProductsService)'
+2019-12-22 17:22:01.4569|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetProducts() on controller ProductsService.Controllers.ProductsController (ProductsService).
+2019-12-22 17:22:01.6808|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method ProductsService.Controllers.ProductsController.GetProducts (ProductsService) - Validation state: Valid
+2019-12-22 17:22:01.8267|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-12-22 17:22:02.0663|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[ID], [p].[ProductName], [p].[ProductPrice], [p].[ProductType], [p].[ProductVolume]
+FROM [Products] AS [p]
+2019-12-22 17:22:02.1138|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method ProductsService.Controllers.ProductsController.GetProducts (ProductsService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 428.2646ms.
+2019-12-22 17:22:02.1138|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductsService.Models.Products, ProductsService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-12-22 17:22:02.1976|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action ProductsService.Controllers.ProductsController.GetProducts (ProductsService) in 735.6437ms
+2019-12-22 17:22:02.1976|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ProductsService.Controllers.ProductsController.GetProducts (ProductsService)'
+2019-12-22 17:22:02.2118|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 822.0568ms 200 application/json; charset=utf-8
+2019-12-22 17:22:02.3094|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44342/favicon.ico  
+2019-12-22 17:22:02.3143|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.3564ms 404 
+2019-12-22 17:22:08.9076|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44342/  
+2019-12-22 17:22:08.9076|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.6777ms 404 
+2019-12-22 17:58:02.5497|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Nermin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-12-22 17:58:03.3618|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44342/api/Products  
+2019-12-22 17:58:03.4767|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ProductsService.Controllers.ProductsController.GetProducts (ProductsService)'
+2019-12-22 17:58:03.5255|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetProducts() on controller ProductsService.Controllers.ProductsController (ProductsService).
+2019-12-22 17:58:03.7214|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method ProductsService.Controllers.ProductsController.GetProducts (ProductsService) - Validation state: Valid
+2019-12-22 17:58:03.9459|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-12-22 17:58:04.2595|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[ID], [p].[ProductName], [p].[ProductPrice], [p].[ProductType], [p].[ProductVolume]
+FROM [Products] AS [p]
+2019-12-22 17:58:04.3429|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method ProductsService.Controllers.ProductsController.GetProducts (ProductsService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 613.3892ms.
+2019-12-22 17:58:04.3685|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductsService.Models.Products, ProductsService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-12-22 17:58:04.5163|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action ProductsService.Controllers.ProductsController.GetProducts (ProductsService) in 983.9999ms
+2019-12-22 17:58:04.5163|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ProductsService.Controllers.ProductsController.GetProducts (ProductsService)'
+2019-12-22 17:58:04.5356|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1173.9811ms 200 application/json; charset=utf-8
+2019-12-22 17:58:04.6072|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44342/favicon.ico  
+2019-12-22 17:58:04.6072|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.8923ms 404 
+2019-12-22 18:06:09.0942|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 OPTIONS https://localhost:44342/api/Products  
+2019-12-22 18:06:09.1215|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+2019-12-22 18:06:09.1397|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2019-12-22 18:06:09.1583|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 62.6525ms 204 
+2019-12-22 18:06:09.2455|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44342/api/Products application/json; charset=utf-8 
+2019-12-22 18:06:09.2563|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+2019-12-22 18:06:09.2563|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2019-12-22 18:06:09.2810|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ProductsService.Controllers.ProductsController.GetProducts (ProductsService)'
+2019-12-22 18:06:09.2916|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetProducts() on controller ProductsService.Controllers.ProductsController (ProductsService).
+2019-12-22 18:06:09.3141|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method ProductsService.Controllers.ProductsController.GetProducts (ProductsService) - Validation state: Valid
+2019-12-22 18:06:09.3896|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-12-22 18:06:09.4915|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[ID], [p].[ProductName], [p].[ProductPrice], [p].[ProductType], [p].[ProductVolume]
+FROM [Products] AS [p]
+2019-12-22 18:06:09.5054|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method ProductsService.Controllers.ProductsController.GetProducts (ProductsService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 168.709ms.
+2019-12-22 18:06:09.5054|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductsService.Models.Products, ProductsService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-12-22 18:06:09.5325|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action ProductsService.Controllers.ProductsController.GetProducts (ProductsService) in 229.8854ms
+2019-12-22 18:06:09.5447|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ProductsService.Controllers.ProductsController.GetProducts (ProductsService)'
+2019-12-22 18:06:09.5599|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 333.5936ms 200 application/json; charset=utf-8
+2019-12-22 18:06:12.9988|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 OPTIONS https://localhost:44342/api/Products  
+2019-12-22 18:06:13.0057|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+2019-12-22 18:06:13.0057|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2019-12-22 18:06:13.0057|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.7381ms 204 
+2019-12-22 18:06:13.0249|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44342/api/Products application/json; charset=utf-8 
+2019-12-22 18:06:13.0249|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+2019-12-22 18:06:13.0382|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2019-12-22 18:06:13.0382|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ProductsService.Controllers.ProductsController.GetProducts (ProductsService)'
+2019-12-22 18:06:13.0382|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetProducts() on controller ProductsService.Controllers.ProductsController (ProductsService).
+2019-12-22 18:06:13.0569|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method ProductsService.Controllers.ProductsController.GetProducts (ProductsService) - Validation state: Valid
+2019-12-22 18:06:13.0731|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-12-22 18:06:13.0980|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[ID], [p].[ProductName], [p].[ProductPrice], [p].[ProductType], [p].[ProductVolume]
+FROM [Products] AS [p]
+2019-12-22 18:06:13.0980|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method ProductsService.Controllers.ProductsController.GetProducts (ProductsService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 40.2643ms.
+2019-12-22 18:06:13.0980|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductsService.Models.Products, ProductsService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-12-22 18:06:13.1196|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action ProductsService.Controllers.ProductsController.GetProducts (ProductsService) in 63.3564ms
+2019-12-22 18:06:13.1196|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ProductsService.Controllers.ProductsController.GetProducts (ProductsService)'
+2019-12-22 18:06:13.1320|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 107.0957ms 200 application/json; charset=utf-8
